@@ -1,0 +1,231 @@
+================================================================================
+ANÁLISE DOS ARQUIVOS CSV - database_50k
+Data/Hora: 2026-02-19 10:00:19
+================================================================================
+
+
+================================================================================
+ARQUIVO: authorships.csv
+================================================================================
+Total de linhas: 189,283
+Total de colunas: 7
+
+COLUNAS (7):
+   1. work_id
+   2. author_id
+   3. author_name
+   4. author_position
+   5. is_corresponding
+   6. countries
+   7. institution_ids
+
+PRIMEIRAS 2 LINHAS:
+                            work_id                         author_id      author_name author_position  is_corresponding countries                   institution_ids
+0  https://openalex.org/W4399913519  https://openalex.org/A5103275826  Gabrielle Alves           first              True        BR    https://openalex.org/I17974374
+1  https://openalex.org/W4399913519  https://openalex.org/A5005545405  Dietmar Jannach          middle             False        AT  https://openalex.org/I4210166741
+
+ÚLTIMAS 2 LINHAS:
+                                 work_id                         author_id    author_name author_position  is_corresponding countries institution_ids
+189281  https://openalex.org/W4417299774  https://openalex.org/A5089526864  Asher Moldwin           first              True       NaN             NaN
+189282  https://openalex.org/W4417299774  https://openalex.org/A5044722808   Amarda Shehu            last             False       NaN             NaN
+
+
+================================================================================
+ARQUIVO: citations.csv
+================================================================================
+Total de linhas: 871,345
+Total de colunas: 2
+
+COLUNAS (2):
+   1. work_id
+   2. cited_work_id
+
+PRIMEIRAS 2 LINHAS:
+                            work_id                     cited_work_id
+0  https://openalex.org/W4399913519  https://openalex.org/W1987431925
+1  https://openalex.org/W4399913519  https://openalex.org/W1991885946
+
+ÚLTIMAS 2 LINHAS:
+                                 work_id                     cited_work_id
+871343  https://openalex.org/W4417062624  https://openalex.org/W4398253240
+871344  https://openalex.org/W4417062624  https://openalex.org/W4399893066
+
+
+================================================================================
+ARQUIVO: concepts.csv
+================================================================================
+Total de linhas: 505,255
+Total de colunas: 6
+
+COLUNAS (6):
+   1. work_id
+   2. concept_id
+   3. concept_name
+   4. wikidata
+   5. level
+   6. score
+
+PRIMEIRAS 2 LINHAS:
+                            work_id                      concept_id      concept_name                               wikidata  level     score
+0  https://openalex.org/W4399913519  https://openalex.org/C41008148  Computer science   https://www.wikidata.org/wiki/Q21198      0  0.647541
+1  https://openalex.org/W4399913519  https://openalex.org/C26760741        Perception  https://www.wikidata.org/wiki/Q160402      2  0.639463
+
+ÚLTIMAS 2 LINHAS:
+                                 work_id                       concept_id           concept_name                              wikidata  level  score
+505253  https://openalex.org/W4413214603   https://openalex.org/C17744445      Political science  https://www.wikidata.org/wiki/Q36442      0    0.0
+505254  https://openalex.org/W4413214603  https://openalex.org/C134306372  Mathematical analysis   https://www.wikidata.org/wiki/Q7754      1    0.0
+
+
+================================================================================
+ARQUIVO: keywords.csv
+================================================================================
+Total de linhas: 396,817
+Total de colunas: 4
+
+COLUNAS (4):
+   1. work_id
+   2. keyword_id
+   3. keyword_name
+   4. score
+
+PRIMEIRAS 2 LINHAS:
+                            work_id                                      keyword_id      keyword_name     score
+0  https://openalex.org/W4399913519  https://openalex.org/keywords/computer-science  Computer science  0.647541
+1  https://openalex.org/W4399913519        https://openalex.org/keywords/perception        Perception  0.639463
+
+ÚLTIMAS 2 LINHAS:
+                                 work_id                                               keyword_id               keyword_name     score
+396815  https://openalex.org/W4413214603  https://openalex.org/keywords/mathematical-optimization  Mathematical optimization  0.376887
+396816  https://openalex.org/W4413214603                https://openalex.org/keywords/mathematics                Mathematics  0.226274
+
+
+================================================================================
+ARQUIVO: related_works.csv
+================================================================================
+Total de linhas: 458,180
+Total de colunas: 2
+
+COLUNAS (2):
+   1. work_id
+   2. related_work_id
+
+PRIMEIRAS 2 LINHAS:
+                            work_id                   related_work_id
+0  https://openalex.org/W4399913519  https://openalex.org/W4391375266
+1  https://openalex.org/W4399913519  https://openalex.org/W2748952813
+
+ÚLTIMAS 2 LINHAS:
+                                 work_id                   related_work_id
+458178  https://openalex.org/W4413214603  https://openalex.org/W2802808995
+458179  https://openalex.org/W4413214603  https://openalex.org/W2787833928
+
+
+================================================================================
+ARQUIVO: topics.csv
+================================================================================
+Total de linhas: 104,879
+Total de colunas: 4
+
+COLUNAS (4):
+   1. work_id
+   2. topic_id
+   3. topic_name
+   4. score
+
+PRIMEIRAS 2 LINHAS:
+                            work_id                     topic_id                              topic_name   score
+0  https://openalex.org/W4399913519  https://openalex.org/T10883         Ethics and Social Impacts of AI  0.9788
+1  https://openalex.org/W4399913519  https://openalex.org/T11045  Privacy, Security, and Data Protection  0.9669
+
+ÚLTIMAS 2 LINHAS:
+                                 work_id                     topic_id                                        topic_name   score
+104877  https://openalex.org/W4413214603  https://openalex.org/T10848  Advanced Multi-Objective Optimization Algorithms  0.9991
+104878  https://openalex.org/W4413214603  https://openalex.org/T10100    Metaheuristic Optimization Algorithms Research  0.9989
+
+
+================================================================================
+ARQUIVO: unique_authors_metadata.csv
+================================================================================
+Total de linhas: 49,945
+Total de colunas: 8
+
+COLUNAS (8):
+   1. id
+   2. display_name
+   3. works_count
+   4. cited_by_count
+   5. h_index
+   6. i10_index
+   7. last_known_institution
+   8. country_code
+
+PRIMEIRAS 2 LINHAS:
+                                 id  display_name  works_count  cited_by_count  h_index  i10_index           last_known_institution country_code
+0  https://openalex.org/A5100422786     Qian Wang         2208           56418      100        997           Wannan Medical College           CN
+1  https://openalex.org/A5012794465  Guodong Zhou          536           10086       51        165  Nanjing Agricultural University           CN
+
+ÚLTIMAS 2 LINHAS:
+                                     id    display_name  works_count  cited_by_count  h_index  i10_index last_known_institution country_code
+49943  https://openalex.org/A5045669764    R Mittermeir            1               0        0          0                    NaN          NaN
+49944  https://openalex.org/A5098339552  Tuomas Timonen            1              30        1          1                    NaN          NaN
+
+
+================================================================================
+ARQUIVO: unique_institutions_metadata.csv
+================================================================================
+Total de linhas: 6,063
+Total de colunas: 6
+
+COLUNAS (6):
+   1. id
+   2. display_name
+   3. country_code
+   4. type
+   5. ror
+   6. lineage
+
+PRIMEIRAS 2 LINHAS:
+                                id                                 display_name country_code       type                        ror                                                          lineage
+0  https://openalex.org/I102322142  Rutgers, The State University of New Jersey           US  education  https://ror.org/05vt9qd57                                  https://openalex.org/I102322142
+1  https://openalex.org/I100532134             Université Claude Bernard Lyon 1           FR  education  https://ror.org/029brtt94  https://openalex.org/I100532134|https://openalex.org/I203339264
+
+ÚLTIMAS 2 LINHAS:
+                                    id                                display_name country_code     type                        ror                                                            lineage
+6061  https://openalex.org/I4210129872                Jazz Pharmaceuticals (Italy)           IT  company  https://ror.org/039vtmd91  https://openalex.org/I4210129872|https://openalex.org/I4210152300
+6062  https://openalex.org/I4210120779  Fluid Gravity Engineering (United Kingdom)           GB  company  https://ror.org/02cc4d683                                   https://openalex.org/I4210120779
+
+
+================================================================================
+ARQUIVO: works.csv
+================================================================================
+Total de linhas: 40,302
+Total de colunas: 17
+
+COLUNAS (17):
+   1. id
+   2. title
+   3. abstract
+   4. doi
+   5. publication_date
+   6. cited_by_count
+   7. language
+   8. type
+   9. fwci
+  10. open_access
+  11. has_fulltext
+  12. is_retracted
+  13. is_paratext
+  14. locations_count
+  15. countries_distinct_count
+  16. institutions_distinct_count
+  17. referenced_works_count
+
+PRIMEIRAS 2 LINHAS:
+                                 id                                                                                     title                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       abstract                                      doi publication_date  cited_by_count language     type       fwci  open_access  has_fulltext is_retracted  is_paratext  locations_count  countries_distinct_count  institutions_distinct_count  referenced_works_count
+0  https://openalex.org/W4399913519                                    User Perception of Fairness-Calibrated Recommendations  The research community has become increasingly aware of possible undesired effects of algorithmic biases in recommender systems. One common bias in such systems is to over-proportionally expose certain items to users, which may ultimately result in a system that is considered unfair to individual stakeholders. From a technical perspective, calibration approaches are commonly adopted in such situations to ensure that the individual user's preferences are better taken into account, thereby also leading to a more balanced exposure of items overall. Given the known limitations of today's predominant offline evaluation approaches, our work aims to contribute to a better understanding of the users' perception of the fairness and quality of recommendations when these are served in a calibrated way. Therefore, we conducted an online user study (N=500) in which we exposed the treatment groups with recommendations calibrated for fairness in terms of two different item characteristics. Our results show that calibration can indeed be effective in guiding the users' choices towards the "fairness items" without negatively impacting the overall quality perception of the system. We however also found that calibration did not measurably impact the users' fairness perceptions unless explanatory information is provided by the system. Finally, our study points to challenges when applying calibration approaches in practice in terms of finding appropriate parameters.  https://doi.org/10.1145/3627043.3659558       2024-06-22              10       en  article  10.627865         True         False        False        False                1                         2                            4                      37
+1  https://openalex.org/W4398186459  A Two-Stage Calibration Approach for Mitigating Bias and Fairness in Recommender Systems                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         Popularity bias and unfairness are problems caused by the lack of calibration in recommender systems. Works that intend to reduce the effect of popularity bias do not consider the distribution of item genres/categories in the users' profiles. Other studies aim to calibrate the system to generate fair recommendations according to users' profiles, but usually are still biased towards popularity. We propose a system calibration approach based on users' preferences for different levels of popularity of items and their genres. The proposed approach works in the post-processing stage and can be combined with different recommendation models. We evaluated the system with offline experiments using one state-of-the-art dataset, three recommender algorithms, six baselines, and different metrics for popularity, fairness, and accuracy. The results indicate reduced popularity bias and improved fairness.  https://doi.org/10.1145/3605098.3636092       2024-04-08               6       en  article   9.165902        False         False        False        False                1                         1                            2                      17
+
+ÚLTIMAS 2 LINHAS:
+                                     id                                                                                     title                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      abstract                                        doi publication_date  cited_by_count language      type  fwci  open_access  has_fulltext is_retracted  is_paratext  locations_count  countries_distinct_count  institutions_distinct_count  referenced_works_count
+40300  https://openalex.org/W4417062624  DyVarMap: An Interpretable, Dynamics-Aware Framework for Missense Variant Classification                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           NaN    https://doi.org/10.1145/3768322.3769028       2025-10-11               0      NaN   article   NaN         True         False        False        False                1                         1                            2                      45
+40301  https://openalex.org/W4417299774                                        Foundation Models for AI-Enabled Biological Design  This paper surveys foundation models for AI-enabled biological design, focusing on recent developments in applying large-scale, self-supervised models to tasks such as protein engineering, small molecule design, and genomic sequence design. Though this domain is evolving rapidly, this survey presents and discusses a taxonomy of current models and methods. The focus is on challenges and solutions in adapting these models for biological applications, including biological sequence modeling architectures, controllability in generation, and multi-modal integration. The survey concludes with a discussion of open problems and future directions, offering concrete next-steps to improve the quality of biological sequence generation.  https://doi.org/10.48550/arxiv.2505.11610       2025-05-16               0       en  preprint   NaN         True         False        False        False                2                         0                            2                       0
